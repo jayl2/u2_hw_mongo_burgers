@@ -16,8 +16,8 @@ You want to help your friend create an app for their burger shop, where customer
 - start `mongo` server
 - start a `mongo shell`
 
-
 The orders should have a
+
 - protein selection
 - whether or not there will be cheese
 - a list of toppings
@@ -27,17 +27,21 @@ The orders should have a
 - Work through the command prompts listed in the `answers.js` file in the mongo shell to CRUD data.
 
 ## Requirements
+
 - All working Mongo commands should be added to your `answers.js` file.
 
 Example:
+
 ```
 // find all the burgers that are not beef
 db.burger.find({meat:{$ne:'beef'}})
 ```
 
 ## Submission Guidelines
+
 - Pull Request must be submitted utilizing these guidelines: [PR Guidelines](https://github.com/SEI-R-6-21/template_pull_request)
 
 ## Resources
 
 > [Mongo Documentation](https://docs.mongodb.com/manual/)
+> .
